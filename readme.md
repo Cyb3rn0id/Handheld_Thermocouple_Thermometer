@@ -14,7 +14,11 @@ A thermocouple is made for reading high temperatures in critical ambients, so if
 
 ### Programming the Digispark
 
-I wrote a tutorial [here](https://www.settorezero.com/wordpress/dispositivi-usb-sulla-punta-di-un-dito-il-digispark/)
+I wrote a tutorial [here](https://www.settorezero.com/wordpress/dispositivi-usb-sulla-punta-di-un-dito-il-digispark/). After you prepared the Arduino IDE for programming the Digispark, you must install those 3 libraries:
+
+- TinyWireM by Adafruit
+- Tiny4kOLED by Stephen Denne (datacute)
+- MAX6675 by Adafruit
 
 ### Connections
 
@@ -51,3 +55,7 @@ Following links are sponsored and only valid for Italian users, anyway you can u
 - [9V clip](https://amzn.to/3oSUQsM)
 - [M3 Inserts](https://amzn.to/3iU5vQ2) (you need only 4)
 - [M3 Screws kit](https://amzn.to/2YIq7nI) (you need only 4)
+
+### Links
+- [Hackaday.io](https://hackaday.io/project/182165-handheld-thermocouple-thermometer)
+- [Hackster](https://www.hackster.io/CyB3rn0id/handheld-thermocouple-thermometer-121893)
