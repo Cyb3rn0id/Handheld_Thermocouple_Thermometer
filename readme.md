@@ -18,13 +18,15 @@ I wrote a tutorial [here](https://www.settorezero.com/wordpress/dispositivi-usb-
 
 ### Connections
 
+There is an [hand-drawn schematic](./docs/schematic.jpg) in the docs folder. Anyway here are the connections:
+
 - 9V Battery : (+) => Digispark Vin, (-) => GND
-- MAX6675 to Digispark: SCK=>P4, CS=>P3, SO=>P1, VCC=>5V
-- 0.91" OLED to Digispark: SCL=>P2, SDA=>P0, VCC=>5V
+- MAX6675 to Digispark: SCK=>D4, CS=>D3, SO=>D1, VCC=>5V
+- 0.91" OLED to Digispark: SCL=>D2, SDA=>D0, VCC=>5V
 
-Thermocouple has a positive and negative wire: connect them properly.
+Thermocouple has a positive (red) and negative (blue) wire: connect them properly.
 
-Put a Switch on a lead of the battery for turning the termometer on/off.
+Put a Switch on a lead of the battery for turning the thermometer on/off.
 
 ### Enclosure
 
