@@ -16,21 +16,20 @@ A thermocouple is made for reading high temperatures in critical ambients, so if
 
 I wrote a tutorial [here](https://www.settorezero.com/wordpress/dispositivi-usb-sulla-punta-di-un-dito-il-digispark/). After you prepared the Arduino IDE for programming the Digispark, you must install those 3 libraries:
 
-- TinyWireM by Adafruit
-- Tiny4kOLED by Stephen Denne (datacute)
-- MAX6675 by Adafruit
+- [TinyWireM by Adafruit](https://github.com/adafruit/TinyWireM)
+- [Tiny4kOLED by Stephen Denne (datacute)](https://github.com/datacute/Tiny4kOLED)
+- [MAX6675 Library by Adafruit](https://github.com/adafruit/MAX6675-library)
 
 ### Connections
-
-There is an [hand-drawn schematic](./docs/schematic.jpg) in the docs folder. Anyway here are the connections:
 
 - 9V Battery : (+) => Digispark Vin, (-) => GND
 - MAX6675 to Digispark: SCK=>D4, CS=>D3, SO=>D1, VCC=>5V
 - 0.91" OLED to Digispark: SCL=>D2, SDA=>D0, VCC=>5V
 
-Thermocouple has a positive (red) and negative (blue) wire: connect them properly.
+![hand-drawn schematic](./docs/schematic.jpg)
 
-Put a Switch on a lead of the battery for turning the thermometer on/off.
+- Thermocouple has a positive (red) and negative (blue) wire: connect them properly.
+- Put a Switch on a lead of the battery for turning the thermometer on/off.
 
 ### Enclosure
 
