@@ -74,9 +74,8 @@ void loop()
     t1*=-1; 
     t2*=-1;  
     }
-    int i;
-  */
-  
+   */
+  int i;
   // Print integer part
   if (t1>99)
     {
